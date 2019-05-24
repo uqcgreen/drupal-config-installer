@@ -11,7 +11,7 @@ class CIInstaller extends LibraryInstaller {
    * {@inheritDoc}
    */
   public function getInstallPath(PackageInterface $package) {
-    return 'ci/' . $package->getPrettyName();
+    return 'uq-ci/' . $package->getPrettyName();
   }
 
   /**
