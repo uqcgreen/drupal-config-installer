@@ -11,7 +11,14 @@ class DrupalConfigInstaller extends LibraryInstaller {
    * {@inheritDoc}
    */
   public function getInstallPath(PackageInterface $package) {
-    return '../config/drupal-config-installer/';
+    // Lame attempt to find config dir.
+    if (is_dir('config')) {
+      $dir = 'config';
+    }
+    else {
+      $dir = '../config';
+    }
+    return $dir . '/drupal-config-installer/';
   }
 
   /**
