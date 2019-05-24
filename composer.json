@@ -1,6 +1,6 @@
 {
-    "name": "uqcgreen/composer-installer",
-    "description": "Test Composer Installer",
+    "name": "uqcgreen/drupal-config-installer",
+    "description": "Drupal Config Installer",
     "type": "composer-plugin",
     "authors": [
         {
@@ -13,7 +13,7 @@
         "psr-4": {"UQ\\Composer\\": "src/"}
     },
     "extra": {
-        "class": "UQ\\Composer\\CIInstallerPlugin"
+        "class": "UQ\\Composer\\DrupalConfigInstallerPlugin"
     },
     "require": {
         "composer-plugin-api": "^1.0"

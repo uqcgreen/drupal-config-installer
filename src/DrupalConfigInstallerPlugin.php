@@ -6,9 +6,9 @@ use Composer\Composer;
 use Composer\IO\IOInterface;
 use Composer\Plugin\PluginInterface;
 
-class CIInstallerPlugin implements PluginInterface {
+class DrupalConfigInstallerPlugin implements PluginInterface {
   public function activate(Composer $composer, IOInterface $io) {
-    $installer = new CIInstaller($io, $composer);
+    $installer = new DrupalConfigInstaller($io, $composer);
     $composer->getInstallationManager()->addInstaller($installer);
   }
 }
