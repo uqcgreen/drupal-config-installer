@@ -1,0 +1,24 @@
+{
+    "name": "uqcgreen/composer-installer",
+    "description": "Test Composer Installer",
+    "type": "composer-installer",
+    "authors": [
+        {
+            "name": "Cameron Green",
+            "email": "cam@uq.edu.au"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {"UQ\\Composer": "src/"}
+    },
+    "extra": {
+        "class": "UQ\\Composer\\CIInstallerPlugin"
+    },
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "require-dev": {
+        "composer/composer": "^1.3"
+    }
+}
