@@ -10,7 +10,7 @@
     ],
     "minimum-stability": "dev",
     "autoload": {
-        "psr-0": {"UQ\\Composer": "src/"}
+        "psr-4": {"UQ\\Composer": "src/"}
     },
     "extra": {
         "class": "UQ\\Composer\\CIInstallerPlugin"
