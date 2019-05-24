@@ -1,7 +1,7 @@
 {
     "name": "uqcgreen/composer-installer",
     "description": "Test Composer Installer",
-    "type": "composer-installer",
+    "type": "composer-plugin",
     "authors": [
         {
             "name": "Cameron Green",
